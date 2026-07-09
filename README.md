@@ -8,7 +8,7 @@
 A clean, responsive, and modern food website created to practice React fundamentals, reusable components, and responsive UI design.
 </p>
 
-<img src="./screenshots/home.png" width="900"/>
+<img src="./src/Components/screenshots/Home.png" width="900"/>
 
 </div>
 
