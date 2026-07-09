@@ -8,7 +8,7 @@
 A clean, responsive, and modern food website created to practice React fundamentals, reusable components, and responsive UI design.
 </p>
 
-<img src="./src/Components/screenshots/Home.png" width="900"/>
+<img src="./src/Components/screenshots/Home.png" width="900" alt="Foodie React Home"/>
 
 </div>
 
@@ -22,27 +22,27 @@ A clean, responsive, and modern food website created to practice React fundament
 
 # 📖 About the Project
 
-Foodie React is a responsive food ordering landing page designed using **React** and **Vite**.
+Foodie React is a responsive food ordering landing page built using **React** and **Vite**.
 
-This project was built as my **first React project** to strengthen my understanding of component-based development, props, reusable UI components, and modern frontend design.
+This project was created as my **first React project** to strengthen my understanding of component-based development, reusable components, props, responsive layouts, and modern frontend development.
 
-Although it is currently a **frontend-only project**, the layout has been designed in a way that can easily be extended into a complete food ordering application by integrating APIs, authentication, and backend services.
+Although it is currently a **frontend-only project**, its structure makes it easy to extend into a complete food ordering application by integrating APIs, authentication, and backend services.
 
 ---
 
 # ✨ Features
 
-- 🍔 Beautiful Landing Page
-- 🎯 Responsive Navigation Bar
-- 🔥 Hero Section
-- 🍕 Today's Special Section
-- 🍟 Food Menu Cards
-- ⭐ Customer Reviews
-- 📧 Newsletter Subscription Section
-- 📱 Responsive Design
-- 🎨 Modern UI Design
-- ⚡ Fast performance with Vite
-- ♻️ Reusable React Components
+* 🍔 Beautiful Landing Page
+* 🎯 Responsive Navigation Bar
+* 🔥 Hero Section
+* 🍕 Today's Special Section
+* 🍟 Food Menu Cards
+* ⭐ Customer Reviews
+* 📧 Newsletter Subscription Section
+* 📱 Fully Responsive Design
+* 🎨 Modern UI
+* ⚡ Fast Performance with Vite
+* ♻️ Reusable React Components
 
 ---
 
@@ -50,53 +50,54 @@ Although it is currently a **frontend-only project**, the layout has been design
 
 ## 🏠 Home
 
-<img src="./screenshots/home.png"/>
+<img src="./src/Components/screenshots/Home.png" alt="Home"/>
 
 ---
 
 ## 🍕 Today's Special
 
-<img src="./screenshots/special.png"/>
+<img src="./src/Components/screenshots/Special.png" alt="Today's Special"/>
 
 ---
 
 ## 🍔 Food Menu
 
-<img src="./screenshots/menu.png"/>
+<img src="./src/Components/screenshots/Menu.png" alt="Food Menu"/>
 
 ---
 
 ## 💬 Customer Reviews
 
-<img src="./screenshots/reviews.png"/>
+<img src="./src/Components/screenshots/Reviews.png" alt="Customer Reviews"/>
 
 ---
 
 ## 📧 Newsletter
 
-<img src="./screenshots/newsletter.png"/>
+<img src="./src/Components/screenshots/Newsletter.png" alt="Newsletter"/>
 
 ---
 
 ## 📄 Footer
 
-<img src="./screenshots/footer.png"/>
+<img src="./src/Components/screenshots/Footer.png" alt="Footer"/>
 
 ---
 
 # 🛠️ Built With
 
-- React
-- Vite
-- JavaScript (ES6)
-- HTML5
-- CSS3
+* ⚛️ React
+* ⚡ Vite
+* 🟨 JavaScript (ES6)
+* 🌐 HTML5
+* 🎨 CSS3
+* 🎯 React Icons
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Foodie-React
 │
 ├── public
@@ -109,31 +110,40 @@ Foodie-React
 │   │   ├── TodaysSpecial
 │   │   ├── Review
 │   │   ├── Newsletter
-│   │   └── Footer
+│   │   ├── Footer
+│   │   └── screenshots
+│   │       ├── Home.png
+│   │       ├── Special.png
+│   │       ├── Menu.png
+│   │       ├── Reviews.png
+│   │       ├── Newsletter.png
+│   │       └── Footer.png
 │   │
 │   ├── assets
 │   ├── App.jsx
 │   └── main.jsx
 │
 ├── package.json
-└── vite.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ---
 
 # 💡 What I Learned
 
-During this project I learned:
+During this project, I learned:
 
-- Creating reusable React components
-- Passing data using Props
-- Organizing project folders
-- Responsive web design
-- Styling with CSS
-- Building layouts using Flexbox
-- Working with React Icons
-- Git & GitHub workflow
-- Deploying React applications
+* Building reusable React components
+* Passing data using Props
+* Organizing React project structure
+* Responsive web design
+* Styling with CSS
+* Using Flexbox for layouts
+* Working with React Icons
+* Git & GitHub workflow
+* Deploying React applications
+* Creating clean and maintainable UI
 
 ---
 
@@ -141,39 +151,39 @@ During this project I learned:
 
 I plan to improve this project by adding:
 
-- 🔐 User Authentication
-- ❤️ Wishlist
-- 🛒 Functional Shopping Cart
-- 🍽️ Dynamic Menu from API
-- 🔍 Search Functionality
-- 💳 Checkout Page
-- 📦 Order Tracking
-- 🌙 Dark / Light Theme
-- 📱 Better Mobile Animations
+* 🔐 User Authentication
+* ❤️ Wishlist
+* 🛒 Functional Shopping Cart
+* 🍽️ Dynamic Menu from API
+* 🔍 Search Functionality
+* 💳 Checkout Page
+* 📦 Order Tracking
+* 🌙 Dark / Light Theme
+* 📱 Better Mobile Animations
 
 ---
 
 # ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/Jayadaripa/foodie-react.git
+git clone https://github.com/Jayadaripa/Foodie-React.git
 ```
 
-Go inside the project
+### Navigate to the project folder
 
 ```bash
-cd foodie-react
+cd Foodie-React
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the project
+### Start the development server
 
 ```bash
 npm run dev
@@ -185,15 +195,14 @@ npm run dev
 
 **Jaya**
 
-GitHub:
-https://github.com/Jayadaripa
+GitHub: https://github.com/Jayadaripa
 
 ---
 
 <div align="center">
 
-### ⭐ If you liked this project, don't forget to give it a star!
+### ⭐ If you found this project helpful, consider giving it a star!
 
-Made with ❤️ using React
+Made with ❤️ using React & Vite
 
 </div>
